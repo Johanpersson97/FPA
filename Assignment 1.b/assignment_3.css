@@ -1,0 +1,52 @@
+/* Valfritt - men snygga gärna till sidan genom lite CSS */
+
+body{
+  background-image: url(https://rare-gallery.com/uploads/posts/527089-star-wars-episode.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 10%;
+}
+
+article {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 27%;
+  margin-right: 27%;
+  margin-bottom: 2%;
+  background-color: black;
+  padding: 2%;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h2:hover {
+  cursor: pointer;
+
+}
+
+section {
+  height:275px;
+}
+
+img {
+  float: left;
+  margin-right: 5%;
+}
+
+p{
+  display: block;
+  width: 90%;
+  color: white;
+
+}
+
+@media screen and (max-width:870px) {
+  section {
+    height: fit-content;
+  }
+  
+}
